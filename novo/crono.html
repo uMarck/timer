@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODELO</title>
+    <link rel="stylesheet" href="crono.css">
+</head>
+<body>
+
+    <header>
+        <div class="menu">
+            <a href="index.html">Relogio</a>
+            <a id="aqui" href="crono.html">Cronometro</a>
+            <a href="alarme.html">Alarme</a>
+        </div>
+    </header>
+
+    <form name="form_main">
+        <div id="cronometro">
+          <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
+        </div>
+      
+        <br />
+      
+        <div class="butoes">
+            <div><a onclick="start()" type="button" name="start">INICIAR</a></div>
+            <div><a onclick="pause()" type="button" name="start">PARAR</a></div>
+            <div><a onclick="reset()" type="button" name="start">RESETAR</a></div>
+        </div>
+      </form>
+    
+    <script src="crono.js"></script>
+</body>
+</html>

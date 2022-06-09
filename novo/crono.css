@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat:wght@200&family=Poppins:wght@300&display=swap');
+
+body {
+    background-color: rgb(85, 85, 85);
+    user-select: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', verdana, arial, sans-serif;
+    color: white;
+    text-shadow: 1px 5px 15px black;
+}
+
+#aqui {
+    color: aqua;
+}
+
+.demo {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: 'Montserrat', verdana, arial, sans-serif;
+    color: aqua;
+    transition: 1s;
+}
+
+.demo:hover {
+    text-shadow: 1px 5px 25px black;
+}
+
+.buttons {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    padding: 105px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.menu a {
+    margin: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    transition: 0.5s;
+}
+
+#cronometro {
+    margin: auto;
+    text-align: center;
+    padding: 150px;
+    font-size: 155px;
+    color: aqua;
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.butoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.butoes a {
+    margin: 0 25px;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    font-family: 'Montserrat';
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+    transform: translateY(-20px);
+}
+
+.butoes a:hover {
+    color: aqua;
+}
